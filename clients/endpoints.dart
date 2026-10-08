@@ -25,7 +25,7 @@ class Endpoints {
 
   static List<Uri> sources = [
     Uri.parse('https://apptor-config.pages.dev/endpoints.json'),
-    Uri.parse('https://raw.githubusercontent.com/Amian/app-config/main/endpoints.json'),
+    Uri.parse('https://raw.githubusercontent.com/Amian/app-config/main/public/endpoints.json'),
   ];
 
   static const _cacheKey = 'endpoints.v1';

@@ -19,7 +19,7 @@ enum Endpoints {
     // Shared state below is only touched while holding `lock`.
     nonisolated(unsafe) static var sources = [
         URL(string: "https://apptor-config.pages.dev/endpoints.json")!,
-        URL(string: "https://raw.githubusercontent.com/Amian/app-config/main/endpoints.json")!,
+        URL(string: "https://raw.githubusercontent.com/Amian/app-config/main/public/endpoints.json")!,
     ]
 
     private static let cacheKey = "endpoints.v1"

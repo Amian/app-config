@@ -7,7 +7,7 @@ Render account, to Cloudflare, to a new domain) without an app update.
   (also used on Android). Each maps service names (`api`, `market`, `assets` …) to a base address.
   `default` holds shared services every app gets (`support`); an app's own entry wins.
 - **Served from two places:** `https://apptor-config.pages.dev/endpoints.json` (Cloudflare Pages,
-  first) and `https://raw.githubusercontent.com/Amian/app-config/main/endpoints.json` (backup).
+  first) and `https://raw.githubusercontent.com/Amian/app-config/main/public/endpoints.json` (backup).
   Neither needs our own domain.
 - **App side:** copy [`clients/Endpoints.swift`](clients/Endpoints.swift) or
   [`clients/endpoints.dart`](clients/endpoints.dart) into the app unchanged; usage is at the top of

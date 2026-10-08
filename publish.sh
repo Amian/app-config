@@ -24,7 +24,7 @@ CLOUDFLARE_API_TOKEN="$CLOUDFLARE_API_TOKEN" CLOUDFLARE_ACCOUNT_ID=9c08258ca5aab
 local_copy=$(node -e 'console.log(JSON.stringify(require("./public/endpoints.json")))')
 for source in \
   "https://apptor-config.pages.dev/endpoints.json" \
-  "https://raw.githubusercontent.com/Amian/app-config/main/endpoints.json?nocache=$(date +%s)"; do
-  remote=$(curl -fsS "$source" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>console.log(JSON.stringify(JSON.parse(s))))' || echo "unreachable")
+  "https://raw.githubusercontent.com/Amian/app-config/main/public/endpoints.json?nocache=$(date +%s)"; do
+  remote=$(curl -fsS "$source" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.stringify(JSON.parse(s)))}catch{console.log("not-json")}})' || echo "unreachable")
   if [ "$remote" = "$local_copy" ]; then echo "✓ live: ${source%%\?*}"; else echo "… not updated yet (cache): ${source%%\?*}"; fi
 done
