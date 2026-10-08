@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "default": {
+    "support": "https://support.theapptor.com"
+  },
+  "apps": {
+    "com.amian.halalchecker": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.plantdiseaseidentifier": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.jewelryidentifier": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.ghibli": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.physicstutor": {
+      "api": "https://wrapfast-backend-u2fl.onrender.com",
+      "assets": "https://ai-tutor.watermarkremover.workers.dev"
+    },
+    "com.amian.chemistrytutor": {
+      "api": "https://wrapfast-backend-u2fl.onrender.com",
+      "assets": "https://ai-tutor.watermarkremover.workers.dev"
+    },
+    "com.amian.biologytutor": {
+      "api": "https://wrapfast-backend-u2fl.onrender.com",
+      "assets": "https://ai-tutor.watermarkremover.workers.dev"
+    },
+    "com.amian.brainrot": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.animalidentifier": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.PatapimsFlashlight": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.catscanner": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.bugscanner": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.cartoon": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.hairchanger": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.peopleremover": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+
+    "com.amian.mountainidentifier": { "api": "https://backend-j5mh.onrender.com" },
+    "com.amian.antiqueidentifier": { "api": "https://backend-j5mh.onrender.com" },
+    "com.amian.stampidentifier": { "api": "https://backend-j5mh.onrender.com" },
+    "com.amian.pillidentifier": { "api": "https://backend-j5mh.onrender.com" },
+    "com.amian.sportscard": { "api": "https://backend-j5mh.onrender.com" },
+    "com.amian.crystal": { "api": "https://backend-j5mh.onrender.com" },
+    "com.amian.chartidentifier": {
+      "api": "https://backend-j5mh.onrender.com",
+      "market": "https://chart-scanner-market.watermarkremover.workers.dev"
+    }
+  }
+}
