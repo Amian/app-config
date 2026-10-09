@@ -20,7 +20,7 @@
       "api": "https://wrapfast-backend-u2fl.onrender.com",
       "assets": "https://ai-tutor.watermarkremover.workers.dev"
     },
-    "com.amian.brainrot": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.brainrot": { "api": "https://rotino-api.theapptor.com" },
     "com.amian.animalidentifier": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
     "com.amian.PatapimsFlashlight": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
     "com.amian.catscanner": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
