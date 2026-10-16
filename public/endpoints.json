@@ -5,7 +5,7 @@
   },
   "apps": {
     "com.amian.halalchecker": { "api": "https://zabihah-api.theapptor.com" },
-    "com.amian.plantdiseaseidentifier": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
+    "com.amian.plantdiseaseidentifier": { "api": "https://plantsickness-api.theapptor.com" },
     "com.amian.jewelryidentifier": { "api": "https://wrapfast-backend-u2fl.onrender.com" },
     "com.amian.ghibli": { "api": "https://toonsta-api.theapptor.com" },
     "com.amian.physicstutor": {
