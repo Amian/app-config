@@ -31,7 +31,7 @@
 
     "com.amian.mountainidentifier": { "api": "https://backend-j5mh.onrender.com" },
     "com.amian.antiqueidentifier": { "api": "https://backend-j5mh.onrender.com" },
-    "com.amian.stampidentifier": { "api": "https://backend-j5mh.onrender.com" },
+    "com.amian.stampidentifier": { "api": "https://stamp-api.theapptor.com" },
     "com.amian.pillidentifier": { "api": "https://backend-j5mh.onrender.com" },
     "com.amian.sportscard": { "api": "https://backend-j5mh.onrender.com" },
     "com.amian.crystal": { "api": "https://backend-j5mh.onrender.com" },
