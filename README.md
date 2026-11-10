@@ -32,3 +32,21 @@ accounts behind it must have 2FA.
   file name with a new loader.
 - Every address is `https`, a base address only (no path, no trailing slash).
 - `node validate.mjs` checks the shape; `--live` also checks every address answers.
+
+## If theapptor.com is ever lost
+
+Every app Worker also answers at a backup address that does not use the domain (enabled 2026-11-10,
+kept on by `workers_dev = true` in each Worker's `wrangler.toml`):
+
+| Worker | Backup address |
+|---|---|
+| zabihah-api | `https://zabihah-api.watermarkremover.workers.dev` |
+| plant-api | `https://plant-api.watermarkremover.workers.dev` |
+| jewelry-api | `https://jewelry-api.watermarkremover.workers.dev` |
+| toonsta-api | `https://toonsta-api.watermarkremover.workers.dev` |
+| rotino-api | `https://rotino-api.watermarkremover.workers.dev` |
+| app-support | `https://app-support.watermarkremover.workers.dev` |
+
+Swap the `*.theapptor.com` addresses in `public/endpoints.json` for these and `./publish.sh`. Apps with
+the loader follow; older builds and the in-app links to `*.theapptor.com` pages do not. The domain is
+registered at 123-Reg and expires 2027-11-09.
